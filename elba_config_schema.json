@@ -20,6 +20,7 @@
 		    "Gene": {"type": "string"},
 		    "Gene_Annotation": {"type": "string"},
 		    "Mutation_Class": {"type": "string"},
+		    "Oncogenic_Binary": {"type": "string"},
 		    "OncoKB": {"type": "string"},
 		    "Protein_Change": {"type": "string"},
 		    "Variant_Reads_And_Total_Reads": {"type": "string"},
@@ -27,7 +28,7 @@
 		    "Whizbam_URL": {"type": "string"}
 		},		
 		"additionalProperties": false,
-		"minProperties": 16,
+		"minProperties": 17,
 		"uniqueItems": true
 	    }
 	},
