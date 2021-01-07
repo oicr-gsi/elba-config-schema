@@ -46,6 +46,7 @@
 		    "SAMPLE_ID": {"type": "string"},
 		    "COSMIC_SIGS": {"type": ["string", "null"]},
 		    "CANCER_TYPE": {"type": ["string", "null"]},
+		    "CANCER_TYPE_DESCRIPTION": {"type": ["string", "null"]},
 		    "CANCER_TYPE_DETAILED": {"type": ["string", "null"]},
 		    "CLOSEST_TCGA": {"type": ["string", "null"]},
 		    "DATE_REPORT": {"type": ["string", "null"], "description": "Placeholder to be filled in by Elba; so datatype is string, not date."},
@@ -60,8 +61,8 @@
 		    "SAMPLE_TYPE": {"type": ["string", "null"]},
 		    "PCT_v7_ABOVE_80x": {"type": ["number", "string", "null"]},
 		    "FRAC_CALLABILITY": {"type": ["number", "string", "null"]},
-		    "SEQUENZA_PURITY_FRACTION": {"type": ["integer", "null"]},
-		    "SEQUENZA_PLOIDY": {"type": ["integer", "null"]},
+		    "SEQUENZA_PURITY_FRACTION": {"type": ["number", "null"]},
+		    "SEQUENZA_PLOIDY": {"type": ["number", "null"]},
 		    "TCGA_PERCENTILE_ALL": {"type": ["number", "string", "null"]},
 		    "TCGA_PERCENTILE_COHORT": {"type": ["number", "string", "null"]},
 		    "TMB_PER_MB": {"type": ["number", "string", "null"]},
@@ -78,7 +79,7 @@
 		    "PATIENT_SUMMARY": {"type": ["string", "null"]}
 		},
 	    "additionalProperties": false,
-	    "minProperties": 33,
+	    "minProperties": 34,
 	    "uniqueItems": true
 	}
     },
