@@ -101,6 +101,7 @@
     "sample_info": {
         "AGE": 35,
         "CANCER_TYPE": "Bowel",
+	"CANCER_TYPE_DESCRIPTION": "Bowel",
         "CANCER_TYPE_DETAILED": "MACR",
         "CENTRE": "TGL",
         "CLOSEST_TCGA": "coadread",
